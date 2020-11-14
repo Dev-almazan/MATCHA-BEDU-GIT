@@ -1,0 +1,219 @@
+
+/*BARRA DE NAVEGACION*/
+/*font Alegreya*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@900&display=swap');
+/*Inicializando valores en todos los elementos*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*barra navegacion */
+.header 
+{
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+    font-size: 0;
+}
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+    background-color: #fffbf7;
+}
+
+li {
+  display: inline;
+  font-weight:500;
+  
+}
+.header > * {
+  display: inline-block;
+   font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 45px;
+  font-family: 'Roboto', sans-serif;
+
+}
+.logo {
+  width: 15%;
+}
+
+.navbar {
+  width: 70%;
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+}
+
+.actions {
+  width: 15%;
+   text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+}
+li > * {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.actions a {
+  color: #67b54b;
+}
+.logo > img {
+  height: 100%;
+}
+.menu-item {
+  display: inline;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.actions button {
+  color: white;
+  background-color: #67b54b;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 0;
+  border-radius: 5px;
+}
+
+
+/*SECCION UNO*/
+.main{
+  margin-top: 285px;       
+max-width: 100%;
+text-align: center;
+height: auto;
+background-color: #fff;
+}
+          
+.centrado, form
+{
+justify-content: center;
+text-align: center;
+}
+      
+h1,h3 {
+  color: #025157;
+    font-weight: 600;
+    font-size: 4.2em;
+    font-family: "Alegreya", serif;
+    margin: 30px 0 20px 0;
+}
+h4 {
+  color: #46484c;
+    font-weight: 600;
+    font-size: 1.2em;
+    font-family: "Slabo 27px", serif;
+    margin: 15px 0 30px 0;
+}
+p{
+  color:#46484c;  
+     font-size: 1.3em;
+}
+button
+{
+    padding: 1.5%;
+    background-color: #025157;
+    color:#fff;
+    border-top-right-radius: 10PX;
+    border-bottom-right-radius: 10PX;
+    border :none;
+    font-size: 1.1em;
+    margin: 0;
+}
+input
+{
+    margin: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+   padding: 1.5%;
+    font-size: 1.1em;
+    color:#fff;
+    border-radius: 1PX;
+    border :solid 1px #aba9a9; 
+}
+.img
+{
+margin: auto;
+height: auto; 
+padding: 1.5%;
+text-align: center;
+max-width: 100%;
+justify-content: center;
+}
+
+
+/*SECCION DOS*/
+
+
+.promo {
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+}
+.explanatory-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.publish {
+  flex: 1;
+}
+.lineal
+{
+    display: flex;
+    padding: 3%;
+    margin:  0 auto;
+    justify-content: center;
+    height: auto;
+}
+    
+ .lineado
+{
+    padding: 1.5% 0 1.5% 0;
+}
+.publishc
+{
+color: #343434:    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
