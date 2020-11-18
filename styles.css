@@ -281,11 +281,45 @@ color: #343434:
   height: 100%;
 }
     
+  /*SECCION CUATRO*/  
     
+   .articulos {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  padding:12.5%;
+      background-color: #a1d683;
+	  justify-content:center;
+	  height:auto;
+	  color:black;
+} 
     
-    
-    
-    
+    .artuno {
+  width: 70%;
+  margin: 0 auto;
+  align-items: center;
+ color:black;
+	  justify-content:center;
+	 padding:8%;
+	  height:auto;
+	
+} 
+.fontart
+{
+	font-size:2em;
+	color:black;
+	text-align:left;
+}
+  
+.artdos {
+  width: 30%;
+  margin: 0 auto;
+  align-items: center;
+	  justify-content:center;
+	  height:auto;
+} 
+  
     
     
     
