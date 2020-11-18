@@ -12,6 +12,18 @@
 .left{
     text-align: left;
 }
+.verde
+{
+ color: #025157;   
+    padding: 0;
+    margin: 0;
+}
+.cursivas
+{
+    font-family: "Alegreya", serif;
+      padding: 0;
+    margin: 0;
+}
 
 .video
 {
@@ -57,6 +69,7 @@ p{
   color:#46484c;  
      font-size: 1.3em;
         backface-visibility: hidden;
+    font-family: 'Open Sans', sans-serif;
 }
 form
 {
@@ -215,7 +228,9 @@ text-align: center;
 }
 .publishc
 {
-color: #343434:    
+color: black;
+    font-size: 1em;
+    font-weight: 500;
 }
     
  
@@ -310,14 +325,14 @@ color: #343434:
 } 
 .fontart
 {
-	font-size:1.4em;
+	font-size:1.2em;
 	color:black;
 	text-align:left;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
   
 .artdos {
-  width: 25%;
+  width: 23%;
   margin: 0 auto;
   align-items: center;
 	  justify-content:center;
@@ -354,14 +369,64 @@ color: #343434:
 .card
 {
     max-width: 100%;
-    padding: 2%;
+    padding: 1%;
     height: auto;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     margin: 0 auto;
+        font-family: 'Open Sans', sans-serif;
 }
-    
-    
+.card-body
+{
+
+padding-right: 5%;
+    padding-left: 5%;
+
+}
+
+.results
+{
+    display: flex;
+    align-content: center;
+    font-size: .8em;
+    padding-bottom: 50px;
+     padding-top: 15px;
+    color: darkgray;
+}
+.card-footer
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 45px;
+}
+
+.buttom
+{
+    background-color: #025157;
+    color: #fff;
+    border: none;
+border-radius: 5px;
+    padding: 12px 50px;
+    font-weight: 600;
+    font-size: 1.1em;
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.imgx
+{
+    margin: auto;
+height: auto; 
+padding: 0;
+text-align: center;
+max-width: 100%;
+justify-content: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
     
     
     
