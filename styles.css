@@ -9,6 +9,10 @@
   padding: 0;
     backface-visibility: hidden;
 }
+html
+{
+    background-color: #fffbf7;
+}
 .left{
     text-align: left;
 }
@@ -428,7 +432,31 @@ justify-content: center;
     border-top-right-radius: 15px;
 }
     
-    
+/*SECCION CINCO*/
+
+    .grid-container {
+   grid-template-rows: 400px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2em;
+        display: grid;
+        max-width: 90%;
+        height: 100px;
+        margin: 0 auto;
+        justify-content: center;
+        padding: 5%;
+        background-color: #fffbf7;
+}
+    .grid-item1
+        {
+            background-color: white;
+            border: 1px solid gray;
+            border-radius: 11px;
+            padding: 3%;
+            text-align: center;
+            justify-content: center;
+            height: auto;
+        }
+
     
     
     
