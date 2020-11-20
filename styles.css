@@ -435,15 +435,16 @@ justify-content: center;
 /*SECCION CINCO*/
 
     .grid-container {
-   grid-template-rows: 400px;
+   grid-template-rows: 100%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 2em;
         display: grid;
         max-width: 90%;
-        height: 100px;
+        height: auto;
         margin: 0 auto;
         justify-content: center;
-        padding: 5%;
+        padding-top: 10%;
+          padding-bottom: 10%;
         background-color: #fffbf7;
 }
     .grid-item1
