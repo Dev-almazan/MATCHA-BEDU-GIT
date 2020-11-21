@@ -8,11 +8,9 @@
   margin: 0;
   padding: 0;
     backface-visibility: hidden;
+ 
 }
-html
-{
-    background-color: #fffbf7;
-}
+
 .left{
     text-align: left;
 }
@@ -118,8 +116,10 @@ form
   top: 0;
   left: 0;
   right: 0;
-    background-color: #fffbf7;
     z-index:100000;
+}
+#color{
+    background-color: #fffbf7;
 }
 
 li {
@@ -143,19 +143,22 @@ li {
 }
 
 .navbar {
-  width: 70%;
+  width: 100%;
   text-align: center;
   color: #025157;
   font-weight: 500;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #fffbf7;
 }
 
 .actions {
-  width: 15%;
-   text-align: right;
-  font-size: 14px;
+  text-align: right;
   font-weight: 600;
+  font-size: 14px;
+    margin-right:0 auto;
 }
-li > * {
+.li, li  > * {
   margin-right: 10px;
   margin-left: 10px;
 }
@@ -169,6 +172,7 @@ li > * {
   display: inline;
   margin-right: 25px;
   margin-left: 25px;
+    margin: 0 auto;
 }
 
 .actions button {
@@ -185,7 +189,7 @@ li > * {
 
 /*SECCION UNO*/
 .main{
-  margin-top: 285px;       
+  padding-top: 285px;       
 max-width: 100%;
 text-align: center;
 height: auto;
@@ -207,10 +211,12 @@ text-align: center;
 
 .promo {
   display: flex;
-  width: 70%;
+  width: 100%;
   margin: 100px auto;
   align-items: center;
       background-color: #fffbf7;
+    padding-left:15%;
+    padding-right: 15%;
    
 }
 .explanatory-video {
@@ -218,12 +224,12 @@ text-align: center;
   flex-direction: column;
   align-items: center;
   flex: 1;
-    
+     background-color: #fffbf7; 
 }
 
 .publish {
   flex: 1;
-    
+     background-color: #fffbf7; 
 }
 .lineal
 {
@@ -438,14 +444,16 @@ justify-content: center;
     
 /*SECCION CINCO*/
     .cinco {
-        max-width: 60%;
+        max-width: 100%;
         height: auto;
         padding-top: 4.5%;
         padding-bottom: 4.5%;
+        padding-left: 20%;
+        padding-right: 20%;
         margin: 0 auto;
         justify-content: center;
         text-align: center;
- 
+ background-color: #fffbf7;
 }
 
     .grid-container {
@@ -453,7 +461,9 @@ justify-content: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 2.5em;
         display: grid;
-        max-width: 85%;
+        max-width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
         height: auto;
         margin: 0 auto;
         justify-content: center;
@@ -715,7 +725,7 @@ padding-right: 5%;
   grid-template-columns: 1fr;
   grid-gap: 2.5em;
         display: grid;
-        max-width: 90%;
+        max-width: 100%;
         height: auto;
         margin: 0 auto;
         justify-content: center;

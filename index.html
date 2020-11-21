@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+   <meta charset="utf-8">
    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.css" />
    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -9,8 +11,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">      
     <title>Matcha</title>
   </head>
-  <body>
-      
+  <body >
+      <!-- OCULTAR BARRA
       <section class="fixed-header"> 
 <header class="header">
   
@@ -34,7 +36,41 @@
   </div>
 </header>
  </section>
-      
+    -->  
+     <!-- BARRA DE NAVEGACION DE BOOTSTRAP -->
+  
+  <nav class=" navbar navbar-expand-lg navbar-light  fixed-top" >
+      <a href="#" class="logo" >
+    <img src="http://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha" />
+  </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto menu-item">
+        <li class="li">Platform</li>
+      <li class="li">Pricing</li>
+      <li class="li">Customers</li>
+      <li class="li">Resources</li>
+      <li class="li">About</li>
+        
+      </ul>
+      <form class="form-inline actions justify-content-end">
+    <a>Sign In </a>
+    <button>Start free trial</button>
+
+      </form>
+    </div>
+  </nav>
 <article class="main"> 
         
         
@@ -305,7 +341,14 @@
     </div>
 </section>
 
- 
+   <script
+    src="JS/jquery.js" type="text/javascript"></script>
+  <script
+    src="JS/popper.js" type="text/javascript"
+  ></script>
+  <script
+    src="JS/bootstrap.js" type="text/javascript"
+  ></script>
  </body>    
   
 </html>
