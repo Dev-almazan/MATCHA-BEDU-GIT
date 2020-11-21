@@ -119,6 +119,7 @@ form
   left: 0;
   right: 0;
     background-color: #fffbf7;
+    z-index:100000;
 }
 
 li {
@@ -434,9 +435,10 @@ justify-content: center;
     
 /*SECCION CINCO*/
     .cinco {
-        max-width: 70%;
+        max-width: 60%;
         height: auto;
-        padding: 2%;
+        padding-top: 4.5%;
+        padding-bottom: 4.5%;
         margin: 0 auto;
         justify-content: center;
         text-align: center;
@@ -458,7 +460,7 @@ justify-content: center;
     .grid-item1
         {
             background-color: white;
-            border: 1px solid gray;
+              border: 1px solid #dadada;
             border-radius: 11px;
             padding: 3%;
             text-align: center;
@@ -466,9 +468,50 @@ justify-content: center;
             height: auto;
         }
 
+.n1{
+    font-size: 3.1em;
+} 
     
+.n2{
+max-width: 79%;
+    color: #46484c;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}    
     
-    
-    
-    
-
+ .n3
+{
+    text-decoration: none;
+    color: #a1d683;
+}
+.n4
+{
+    font-size: 30px;
+    line-height: 36px;
+    font-family: "Alegreya", serif;
+    color: #025157;
+    font-weight: 400;
+    text-align: center;
+}
+.n6
+{
+      font-size: 15px;
+    line-height: 1.5;
+    color: #46484c;
+    font-weight: 400;
+    margin-bottom: 16px;
+    text-align: left;
+   padding: 5%;
+}
+.n7
+{
+       font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+    line-height: 1.4;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+}
