@@ -596,5 +596,143 @@ justify-content: center;
   .feature-image {
     display: none;
   }
+      /*SECCION CUATRO*/  
+    
+   .articulos {
+  display: grid;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  padding:2.5%;
+      background-color: #a1d683;
+	  justify-content:center;
+	  height:auto;
+	  color:black;
+} 
+    .artuno {
+  width: 98%;
+  margin: 0 auto;
+  align-items: center;
+ color:black;
+	  justify-content:center;
+	 padding:2%;
+	  height:auto;
+        background-color: #a1d683;
+} 
+.fontart
+{
+	font-size:1.2em;
+	color:black;
+	text-align:left;
+    font-family: 'Open Sans', sans-serif;
+}
+  
+.artdos {
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+	  justify-content:center;
+	  height:auto;
+     background-color: white;
+    border-radius: 15px;
+    padding: 0;
+padding: 2%;
+    
+} 
+  
+.titulo
+{
+     color: #025157;
+    font-weight: 600;
+    font-size: 3.1em;
+    font-family: "Alegreya", serif;
+    margin: 30px 0 20px 0;
+     backface-visibility: hidden;
+}
+    
+    
+  .botona
+{
+    padding: 2.5%;
+    background-color: #025157;
+    color: #fffbf7;
+    border :none;
+    font-size: .9em;
+    margin: 0;
+    border-radius: 7px;
+    font-weight: 600;
+}  
+
+.card
+{
+    max-width: 100%;
+    padding: 1%;
+    height: auto;
+    justify-content: center;
+    text-align: left;
+    margin: 0 auto;
+        font-family: 'Open Sans', sans-serif;
+}
+.card-body
+{
+
+padding-right: 5%;
+    padding-left: 5%;
+
+}
+
+.results
+{
+    display: grid;
+    align-content: center;
+    font-size: .8em;
+    padding-bottom: 50px;
+     padding-top: 15px;
+    color: darkgray;
+}
+.card-footer
+{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 45px;
+}
+/*SECCION CINCO*/
+    .cinco {
+        max-width: 100%;
+        height: auto;
+        padding-top: 4.5%;
+        padding-bottom: 4.5%;
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+ 
+}
+
+    .grid-container {
+   grid-template-rows: auto;
+  grid-template-columns: 1fr;
+  grid-gap: 2.5em;
+        display: grid;
+        max-width: 90%;
+        height: auto;
+        margin: 0 auto;
+        justify-content: center;
+          padding: 6%;
+        background-color: #fffbf7;
+}
+    .grid-item1
+        {
+            background-color: white;
+              border: 1px solid #dadada;
+            border-radius: 11px;
+            padding: 3%;
+            text-align: center;
+            justify-content: center;
+            height: auto;
+        }
+    
+    
 }
 
