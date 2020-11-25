@@ -13,11 +13,15 @@
 
 
 
-h1 {
+.primario {
   color: #025157;
   font-family: "Alegreya", serif;
-  font-size: 60px;
+  font-size: 70px;
   margin-bottom: 24px;
+}
+.secundario
+{
+font-size
 }
 
 .header {
