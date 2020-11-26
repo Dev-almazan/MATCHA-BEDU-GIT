@@ -565,14 +565,30 @@ max-width: 79%;
     text-decoration: none;
 }
 
-
+#movil
+{
+    display: none;
+}
 /*VERSION MOVIL*/
+
+
 
 @media (max-width: 575px) {
   .navbar,
   .actions {
     display: none;
   }
+    
+#escritorio
+    {
+        display: none;
+    }    
+
+  #movil
+{
+    display: grid;
+}
+
 
  .main{
   margin-top: 200px;       
@@ -774,7 +790,7 @@ padding-right: 5%;
               border: 1px solid #dadada;
             border-radius: 11px;
             padding: 3%;
-            text-align: center;
+            text-align: left;
             justify-content: center;
             height: auto;
         }
