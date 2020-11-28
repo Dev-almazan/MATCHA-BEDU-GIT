@@ -101,7 +101,7 @@ form
     border-bottom-left-radius: 15px;
    padding: 1%;
     font-size: 1.1em;
- color: #fffbf7;
+ color: black;
     border-radius: 1PX;
     border :solid 1px #aba9a9; 
 }
@@ -647,6 +647,7 @@ justify-content: center;
 
   .publish > form > div > input {
     width: 100%;
+    color:black;
   }
     
     .features {
