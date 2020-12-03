@@ -166,7 +166,7 @@ li {
     justify-content: center;
     margin: 0 auto;
     background-color: #fffbf7;
-padding:0%;
+padding:.1%;
 }
 .nav-item, .nav-link {
   color: #025157;
@@ -242,8 +242,8 @@ text-align: center;
   margin: 100px auto;
   align-items: center;
       background-color: #fffbf7;
-    padding-left:15%;
-    padding-right: 15%;
+    padding-left:5%;
+    padding-right: 5%;
    
 }
 .explanatory-video {
@@ -608,6 +608,10 @@ padding: 5%;
     
 }
 
+.col
+{
+    margin: .5%;
+}
 
 .process-icon
 {
@@ -631,6 +635,7 @@ padding: 5%;
   .navbar,
   .actions {
     display: none;
+      padding: 2%;
   }
     
 #escritorio
@@ -643,7 +648,10 @@ padding: 5%;
     display: grid;
 }
 
-
+html
+    {
+     background-color: #fffbf7;    
+    }
  .main{
   margin-top: 200px;       
 max-width: 100%;
@@ -743,6 +751,11 @@ justify-content: center;
 	text-align:left;
     font-family: 'Open Sans', sans-serif;
 }
+   .navbar navbar-expand-lg
+{
+    margin:0;
+    padding: 3%;
+    }
   
 .artdos {
   width: 95%;
@@ -851,7 +864,10 @@ padding-right: 5%;
             height: auto;
         }
     
-    
+   .col
+{
+    margin: 2.5%;
+} 
 }
 
 
