@@ -223,7 +223,7 @@ height: auto;
   background-color: #fffbf7;
 }
           
-.centrado, 
+.centrado
 {
 justify-content: center;
 text-align: center;
@@ -582,7 +582,22 @@ max-width: 90%;
 #movil
 {
     display: none;
+    
 }
+
+
+/* SECCION SEIS*/
+.home
+{ 
+background-image: url(seis.png);
+max-width: 1000%;
+   background-attachment: scroll;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 17%;
+}
+
 /*VERSION MOVIL*/
 
 
