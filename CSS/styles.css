@@ -87,7 +87,7 @@ h4 {
     margin: 15px 0 30px 0;
         backface-visibility: hidden;
 }
-p{
+.p, p{
   color:#46484c;  
      font-size: 1.3em;
         backface-visibility: hidden;
@@ -166,7 +166,7 @@ li {
     justify-content: center;
     margin: 0 auto;
     background-color: #fffbf7;
-padding:0%;
+padding:.1%;
 }
 .nav-item, .nav-link {
   color: #025157;
@@ -242,8 +242,8 @@ text-align: center;
   margin: 100px auto;
   align-items: center;
       background-color: #fffbf7;
-    padding-left:15%;
-    padding-right: 15%;
+    padding-left:5%;
+    padding-right: 5%;
    
 }
 .explanatory-video {
@@ -582,7 +582,51 @@ max-width: 90%;
 #movil
 {
     display: none;
+  
+}
+/*SECCION SEIS*/
+
+.blog
+{
+max-width: 100%;
+height: auto;
+padding: 5%;    
     
+}
+.n9{
+    color: #025157;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+}
+.process, .author
+{
+    display: flex;
+    padding-top: 2%;
+    margin: 1%;
+    
+}
+
+.col
+{
+    margin: .5%;
+}
+
+.process-icon
+{
+    margin: 0 auto;
+    padding: 2.5%;
+    color: #025157;
+    margin-bottom: 0;
+  
+}
+.circulo
+{
+  max-width: 100%;
+    height: auto;
+    border-radius: 55px;
+
 }
 
 
@@ -590,12 +634,20 @@ max-width: 90%;
 .home
 { 
 background-image: url(seis.png);
-max-width: 1000%;
+max-width: 100%;
    background-attachment: scroll;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     margin: auto;
-    padding: 17%;
+ height: 300px;
+}
+
+.homepage
+{
+    max-width: 100%;
+    margin:0  auto;
+    height: auto;
 }
 
 /*VERSION MOVIL*/
@@ -606,6 +658,7 @@ max-width: 1000%;
   .navbar,
   .actions {
     display: none;
+      padding: 2%;
   }
     
 #escritorio
@@ -618,7 +671,10 @@ max-width: 1000%;
     display: grid;
 }
 
-
+html
+    {
+     background-color: #fffbf7;    
+    }
  .main{
   margin-top: 200px;       
 max-width: 100%;
@@ -635,7 +691,7 @@ padding: 0;
 text-align: center;
 max-width: 100%;
 justify-content: center;
-    padding: 3%;
+    
 }
 
   h1 {
@@ -718,6 +774,11 @@ justify-content: center;
 	text-align:left;
     font-family: 'Open Sans', sans-serif;
 }
+   .navbar navbar-expand-lg
+{
+    margin:0;
+    padding: 3%;
+    }
   
 .artdos {
   width: 95%;
@@ -801,6 +862,7 @@ padding-right: 5%;
         text-align: center;
  
 }
+    
 
     .grid-container {
    grid-template-rows: auto;
@@ -825,6 +887,10 @@ padding-right: 5%;
             height: auto;
         }
     
-    
+   .col
+{
+    margin: 2.5%;
+} 
 }
+
 
