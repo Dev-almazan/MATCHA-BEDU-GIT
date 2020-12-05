@@ -633,6 +633,7 @@ padding: 5%;
 /* SECCION SEIS*/
 .home
 { 
+    
 background-image: url(seis.png);
 max-width: 100%;
    background-attachment: scroll;
@@ -641,6 +642,9 @@ max-width: 100%;
     background-position: center;
     margin: auto;
  height: 300px;
+ 
+   
+    
 }
 
 .homepage
@@ -649,6 +653,30 @@ max-width: 100%;
     margin:0  auto;
     height: auto;
 }
+
+/* SECCION SIETE*/
+.siete
+{ 
+   
+background-color:#a1d683;
+max-width: 100%;
+ box-sizing: border-box;
+padding-top: 1.2%;
+padding-bottom: 1.2%;    
+    margin: auto;
+height: auto;
+ text-align: center;
+    justify-content: center;
+}
+
+.tri
+{
+    padding-top: 1%;    
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
 
 /*VERSION MOVIL*/
 
@@ -799,7 +827,7 @@ padding: .5%;
     font-weight: 600;
     font-size: 3.1em;
     font-family: "Alegreya", serif;
-    margin: 30px 0 20px 0;
+    margin: 20px 0 10px 0;
      backface-visibility: hidden;
 }
     
@@ -891,6 +919,54 @@ padding-right: 5%;
 {
     margin: 2.5%;
 } 
+    /* SECCION SEIS*/
+.home
+{ 
+    
+background-image: url(seis.png);
+max-width: 100%;
+   background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+ height: 300px;
+ 
+   
+    
+}
+
+.homepage
+{
+    max-width: 100%;
+    margin:0  auto;
+    height: auto;
+}
+
+/* SECCION SIETE*/
+.siete
+{ 
+   
+background-color:#a1d683;
+max-width: 100%;
+ box-sizing: border-box;
+padding-top: 1.2%;
+padding-bottom: 1.2%;
+    padding: 2%;
+    margin: auto;
+height: auto;
+ text-align: center;
+    justify-content: center;
+}
+
+.tri
+{
+    padding-top: 1%;    
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
 }
 
 
