@@ -120,6 +120,19 @@ form
   margin-left: -5px;
 }
 
+.buttomdos
+{
+     background-color: #67b54b;
+  color: #fff;
+  border: none;
+      border: 1px solid #67b54b;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 15px 20px;
+  margin-left: -5px;
+}
+
+
 /*barra navegacion */
 
 .fixed-header {
@@ -677,6 +690,48 @@ height: auto;
     font-weight: 500;
 }
 
+/* SECCION OCHO*/
+.ocho
+{ 
+   
+background-color:#fffbf7;
+max-width: 100%;
+ box-sizing: border-box;
+padding-top: 5%; 
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+height: auto;
+ text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.ochol
+{ 
+   
+background-color:#025157;
+max-width: 100%;
+ box-sizing: border-box;
+padding: 5%;  
+    margin: auto;
+height: auto;
+ text-align: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 15px;
+}
+.ochocol
+{
+ max-width:45%;
+    padding: .5%;
+    margin:  0 auto;
+    height: auto;
+    
+}
+
+
+
 
 /*VERSION MOVIL*/
 
@@ -966,6 +1021,48 @@ height: auto;
     font-size: 14px;
     font-weight: 500;
 }
+/* SECCION OCHO*/
+.ocho
+{ 
+   
+background-color:#fffbf7;
+max-width: 100%;
+ box-sizing: border-box;
+padding-top: 4%; 
+    padding-left: 4%;
+    padding-right: 4%;
+    margin: auto;
+height: auto;
+ text-align: center;
+    justify-content: center;
+    display: grid;
+}
+
+.ochol
+{ 
+   
+background-color:#025157;
+max-width: 100%;
+ box-sizing: border-box;
+padding: 2.5%;  
+    margin: auto;
+height: auto;
+ text-align: center;
+    justify-content: center;
+    display: grid;
+    border-radius: 15px;
+}
+.ochocol
+{
+ max-width:100%;
+    padding: 2.5%;
+    margin:  0 auto;
+    height: auto;
+    
+}
+
+
+
 
 }
 
