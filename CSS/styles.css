@@ -647,17 +647,15 @@ padding: 5%;
 .home
 { 
     
-background-image: url(seis.png);
+background-image: url(inicio.png);
 max-width: 100%;
    background-attachment: scroll;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     margin: auto;
  height: 300px;
- 
-   
-    
+  
 }
 
 .homepage
@@ -978,7 +976,7 @@ padding-right: 5%;
 .home
 { 
     
-background-image: url(seis.png);
+background-image: url(inicio.png);
 max-width: 100%;
    background-attachment: scroll;
     background-size: cover;
